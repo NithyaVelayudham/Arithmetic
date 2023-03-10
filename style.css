@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+:root{
+    --primary-color:#2e2bd3;
+    --secondary-color:#2ab3d3;
+    --third-color:#b1d32b;
+    --sub-heading-font:24px;
+    --main-font-size:16px;
+    --main-font-family:'Roboto condensed,serief,san-serief';
+    --second-font-family:'Nunito', sans-serif;
+}
+/*--body--*/
+body{
+   background-color: rgb(185, 185, 204);
+    font-family: 'Roboto', sans-serif;
+    
+   }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700!important;
+}
+h1{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top:80px;
+    text-decoration:2px solid underline #000;
+    color: #2e2bd3;
+}
+h2{
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top:20px;
+    text-decoration:2px solid underline #000;
+    color:#2ab3d3;
+}
+.container{
+min-height: 100vh;
+min-width: 50%;
+    width: 80%;
+    margin: 2% 10%;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.card{
+    background-color:#2ab3d3;
+    min-width: 20%;
+    min-height: 50%;
+text-align:center;
+justify-items: center;
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 20px;
+line-height: 25px;
+    border:2px groove #fff;
+    border-radius: 20px;
+    border-color:#fff;
+
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#464141;
+    color: #fff;
+    
+}
+button:hover{
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+input{
+   min-height: 30px;
+   min-width: auto;
+   padding: 2px 10px;
+   box-shadow: 2px 2px 2px #fff;
+   border:2px groove #fff;
+
+}
